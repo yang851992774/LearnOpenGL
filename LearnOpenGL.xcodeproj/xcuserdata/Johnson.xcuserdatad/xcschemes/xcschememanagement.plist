@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>01_Triangle_LoadShader.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>LearnOpenGL copy.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -53,6 +58,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>2C650B0528FDCD6D00265006</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2CFE54B92903EC4400E09452</key>
 		<dict>
 			<key>primary</key>
 			<true/>

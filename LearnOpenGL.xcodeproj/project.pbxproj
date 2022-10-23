@@ -38,13 +38,26 @@
 		2CFE545D2903DB1C00E09452 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C650B1128FDCDEF00265006 /* OpenGL.framework */; };
 		2CFE545E2903DB3200E09452 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C650B1728FDCE0D00265006 /* libglfw.3.3.dylib */; };
 		2CFE54612903DB4600E09452 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C650B1328FDCDFF00265006 /* libGLEW.2.2.0.dylib */; };
-		2CFE54792903DC1C00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54782903DC1C00E09452 /* glad.c */; };
-		2CFE547A2903DC1C00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54782903DC1C00E09452 /* glad.c */; };
-		2CFE547B2903DC1C00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54782903DC1C00E09452 /* glad.c */; };
-		2CFE547C2903DC1C00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54782903DC1C00E09452 /* glad.c */; };
-		2CFE547D2903DC1C00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54782903DC1C00E09452 /* glad.c */; };
-		2CFE547E2903DC1C00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54782903DC1C00E09452 /* glad.c */; };
-		2CFE547F2903DC1C00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54782903DC1C00E09452 /* glad.c */; };
+		2CFE54BD2903EC4500E09452 /* 01_Triangle_LoadShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54BC2903EC4500E09452 /* 01_Triangle_LoadShader.cpp */; };
+		2CFE54C12903EC8100E09452 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C650B1128FDCDEF00265006 /* OpenGL.framework */; };
+		2CFE54C52903ECC100E09452 /* libGLEW.2.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C650B1328FDCDFF00265006 /* libGLEW.2.2.0.dylib */; };
+		2CFE54C62903ECCF00E09452 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C650B1728FDCE0D00265006 /* libglfw.3.3.dylib */; };
+		2CFE54CD2903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54CE2903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54CF2903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54D02903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54D12903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54D22903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54D32903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54D42903EEBA00E09452 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CB2903EEBA00E09452 /* Shader.cpp */; };
+		2CFE54D52903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
+		2CFE54D62903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
+		2CFE54D72903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
+		2CFE54D82903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
+		2CFE54D92903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
+		2CFE54DA2903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
+		2CFE54DB2903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
+		2CFE54DC2903EEBA00E09452 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE54CC2903EEBA00E09452 /* glad.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -123,6 +136,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		2CFE54B82903EC4400E09452 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -150,9 +172,16 @@
 		2CFE54552903DB0100E09452 /* Triangle_2VertexAttribute */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Triangle_2VertexAttribute; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFE54572903DB0100E09452 /* Triangle_2VertexAttribute.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Triangle_2VertexAttribute.cpp; sourceTree = "<group>"; };
 		2CFE545C2903DB1400E09452 /* Triangle_2VertexAttribute.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Triangle_2VertexAttribute.entitlements; sourceTree = "<group>"; };
-		2CFE54782903DC1C00E09452 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
 		2CFE549F2903E18100E09452 /* khrplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = khrplatform.h; sourceTree = "<group>"; };
 		2CFE54A12903E18100E09452 /* glad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glad.h; sourceTree = "<group>"; };
+		2CFE54AE2903E8EA00E09452 /* Shader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		2CFE54BA2903EC4400E09452 /* 01_Triangle_LoadShader */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 01_Triangle_LoadShader; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFE54BC2903EC4500E09452 /* 01_Triangle_LoadShader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 01_Triangle_LoadShader.cpp; sourceTree = "<group>"; };
+		2CFE54C82903ECD700E09452 /* 01_Triangle_LoadShader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 01_Triangle_LoadShader.entitlements; sourceTree = "<group>"; };
+		2CFE54CB2903EEBA00E09452 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		2CFE54CC2903EEBA00E09452 /* glad.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = glad.c; sourceTree = "<group>"; };
+		2CFE54FC290521AA00E09452 /* shader.vs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.vs; sourceTree = "<group>"; };
+		2CFE54FD290521AA00E09452 /* shader.fs */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = shader.fs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,14 +256,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2CFE54B72903EC4400E09452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFE54C62903ECCF00E09452 /* libglfw.3.3.dylib in Frameworks */,
+				2CFE54C12903EC8100E09452 /* OpenGL.framework in Frameworks */,
+				2CFE54C52903ECC100E09452 /* libGLEW.2.2.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		2C650AFD28FDCD6D00265006 = {
 			isa = PBXGroup;
 			children = (
+				2CFE54F9290521AA00E09452 /* bin */,
+				2CFE54C92903EEBA00E09452 /* lib */,
 				2CFE549C2903E18100E09452 /* include */,
-				2CFE54772903DC1C00E09452 /* lib */,
 				2C650B0828FDCD6D00265006 /* LearnOpenGL */,
 				2CD5845428FF0FCE002AE2A4 /* Trangle */,
 				2C6F97E52901AF9400B9FCCC /* Triangle2_VAO2_VBO2 */,
@@ -242,6 +282,7 @@
 				2C6F980F2901B32C00B9FCCC /* Triangle_EBO */,
 				2C6F98242902A3B300B9FCCC /* Triangle_GLSL_GradientColor */,
 				2CFE54562903DB0100E09452 /* Triangle_2VertexAttribute */,
+				2CFE54BB2903EC4400E09452 /* 01_Triangle_LoadShader */,
 				2C650B0728FDCD6D00265006 /* Products */,
 				2C650B1028FDCDEF00265006 /* Frameworks */,
 			);
@@ -257,6 +298,7 @@
 				2C6F980E2901B32C00B9FCCC /* Triangle_EBO */,
 				2C6F98232902A3B300B9FCCC /* Triangle_GLSL_GradientColor */,
 				2CFE54552903DB0100E09452 /* Triangle_2VertexAttribute */,
+				2CFE54BA2903EC4400E09452 /* 01_Triangle_LoadShader */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -334,17 +376,10 @@
 			path = Triangle_2VertexAttribute;
 			sourceTree = "<group>";
 		};
-		2CFE54772903DC1C00E09452 /* lib */ = {
-			isa = PBXGroup;
-			children = (
-				2CFE54782903DC1C00E09452 /* glad.c */,
-			);
-			path = lib;
-			sourceTree = "<group>";
-		};
 		2CFE549C2903E18100E09452 /* include */ = {
 			isa = PBXGroup;
 			children = (
+				2CFE54AB2903E86800E09452 /* Tools */,
 				2CFE549D2903E18100E09452 /* glad */,
 			);
 			path = include;
@@ -373,6 +408,65 @@
 				2CFE54A12903E18100E09452 /* glad.h */,
 			);
 			path = glad;
+			sourceTree = "<group>";
+		};
+		2CFE54AB2903E86800E09452 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE54AE2903E8EA00E09452 /* Shader.hpp */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2CFE54BB2903EC4400E09452 /* 01_Triangle_LoadShader */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE54C82903ECD700E09452 /* 01_Triangle_LoadShader.entitlements */,
+				2CFE54BC2903EC4500E09452 /* 01_Triangle_LoadShader.cpp */,
+			);
+			path = 01_Triangle_LoadShader;
+			sourceTree = "<group>";
+		};
+		2CFE54C92903EEBA00E09452 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE54CA2903EEBA00E09452 /* Tools */,
+				2CFE54CC2903EEBA00E09452 /* glad.c */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		2CFE54CA2903EEBA00E09452 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE54CB2903EEBA00E09452 /* Shader.cpp */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		2CFE54F9290521AA00E09452 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE54FA290521AA00E09452 /* shader */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		2CFE54FA290521AA00E09452 /* shader */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE54FB290521AA00E09452 /* 01_vertex_color */,
+			);
+			path = shader;
+			sourceTree = "<group>";
+		};
+		2CFE54FB290521AA00E09452 /* 01_vertex_color */ = {
+			isa = PBXGroup;
+			children = (
+				2CFE54FC290521AA00E09452 /* shader.vs */,
+				2CFE54FD290521AA00E09452 /* shader.fs */,
+			);
+			path = 01_vertex_color;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -498,6 +592,23 @@
 			productReference = 2CFE54552903DB0100E09452 /* Triangle_2VertexAttribute */;
 			productType = "com.apple.product-type.tool";
 		};
+		2CFE54B92903EC4400E09452 /* 01_Triangle_LoadShader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CFE54BE2903EC4500E09452 /* Build configuration list for PBXNativeTarget "01_Triangle_LoadShader" */;
+			buildPhases = (
+				2CFE54B62903EC4400E09452 /* Sources */,
+				2CFE54B72903EC4400E09452 /* Frameworks */,
+				2CFE54B82903EC4400E09452 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 01_Triangle_LoadShader;
+			productName = 01_Triangle_LoadShader;
+			productReference = 2CFE54BA2903EC4400E09452 /* 01_Triangle_LoadShader */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -528,6 +639,9 @@
 					2CFE54542903DB0100E09452 = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					2CFE54B92903EC4400E09452 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 2C650B0128FDCD6D00265006 /* Build configuration list for PBXProject "LearnOpenGL" */;
@@ -550,6 +664,7 @@
 				2C6F980D2901B32C00B9FCCC /* Triangle_EBO */,
 				2C6F98222902A3B300B9FCCC /* Triangle_GLSL_GradientColor */,
 				2CFE54542903DB0100E09452 /* Triangle_2VertexAttribute */,
+				2CFE54B92903EC4400E09452 /* 01_Triangle_LoadShader */,
 			);
 		};
 /* End PBXProject section */
@@ -559,8 +674,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE54D52903EEBA00E09452 /* glad.c in Sources */,
 				2C650B0A28FDCD6D00265006 /* main.cpp in Sources */,
-				2CFE54792903DC1C00E09452 /* glad.c in Sources */,
+				2CFE54CD2903EEBA00E09452 /* Shader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -568,8 +684,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE54D72903EEBA00E09452 /* glad.c in Sources */,
 				2C6F97E72901AF9400B9FCCC /* Triangle2_VAO2_VBO2.cpp in Sources */,
-				2CFE547B2903DC1C00E09452 /* glad.c in Sources */,
+				2CFE54CF2903EEBA00E09452 /* Shader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,8 +694,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE54D82903EEBA00E09452 /* glad.c in Sources */,
 				2C6F97FC2901B17D00B9FCCC /* Triangle2Framement.cpp in Sources */,
-				2CFE547C2903DC1C00E09452 /* glad.c in Sources */,
+				2CFE54D02903EEBA00E09452 /* Shader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,8 +704,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE54D92903EEBA00E09452 /* glad.c in Sources */,
 				2C6F98112901B32C00B9FCCC /* Triangle_EBO.cpp in Sources */,
-				2CFE547D2903DC1C00E09452 /* glad.c in Sources */,
+				2CFE54D12903EEBA00E09452 /* Shader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -595,8 +714,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE54DA2903EEBA00E09452 /* glad.c in Sources */,
 				2C6F98262902A3B300B9FCCC /* Triangle_GLSL_GradientColor.cpp in Sources */,
-				2CFE547E2903DC1C00E09452 /* glad.c in Sources */,
+				2CFE54D22903EEBA00E09452 /* Shader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -604,8 +724,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE54D62903EEBA00E09452 /* glad.c in Sources */,
 				2CD5845628FF0FCE002AE2A4 /* Trangle.cpp in Sources */,
-				2CFE547A2903DC1C00E09452 /* glad.c in Sources */,
+				2CFE54CE2903EEBA00E09452 /* Shader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,8 +734,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE54DB2903EEBA00E09452 /* glad.c in Sources */,
 				2CFE54582903DB0100E09452 /* Triangle_2VertexAttribute.cpp in Sources */,
-				2CFE547F2903DC1C00E09452 /* glad.c in Sources */,
+				2CFE54D32903EEBA00E09452 /* Shader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CFE54B62903EC4400E09452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CFE54D42903EEBA00E09452 /* Shader.cpp in Sources */,
+				2CFE54BD2903EC4500E09452 /* 01_Triangle_LoadShader.cpp in Sources */,
+				2CFE54DC2903EEBA00E09452 /* glad.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,6 +1118,40 @@
 			};
 			name = Release;
 		};
+		2CFE54BF2903EC4500E09452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = 01_Triangle_LoadShader/01_Triangle_LoadShader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKPJFKY633;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.7/lib,
+					lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CFE54C02903EC4500E09452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = 01_Triangle_LoadShader/01_Triangle_LoadShader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FKPJFKY633;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glew/2.2.0_1/lib,
+					/usr/local/Cellar/glfw/3.3.7/lib,
+					lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1057,6 +1223,15 @@
 			buildConfigurations = (
 				2CFE54592903DB0100E09452 /* Debug */,
 				2CFE545A2903DB0100E09452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CFE54BE2903EC4500E09452 /* Build configuration list for PBXNativeTarget "01_Triangle_LoadShader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CFE54BF2903EC4500E09452 /* Debug */,
+				2CFE54C02903EC4500E09452 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
